@@ -1,0 +1,11 @@
+
+If you had a scenario where the input data is a large dataset (As in the case of BIG data). How would you solve the above problem of checking for pangram and counting pangram occurrence?
+
+
+>>  I can't say actual solution to this. But I think following might be the good solutions:
+    
+    1. Increase computational power by Parallel processing 
+    2. Use more optimized library of python like re
+    3. Use different big data platforms 
+    4. Use nosql db for easy and fast access
+
