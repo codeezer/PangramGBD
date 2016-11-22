@@ -38,7 +38,8 @@ def is_pangram(word):
 
 def main():
     
-    test_string = "The quick brown fox jumps over the lazy gdo poiuytrewqasdfghjklmnbvcxz.           The quick brown fox jumps over the lazy dog mnbvcxzasdfghjklpoiuytrewq."
+    test_string = "The quick brown fox jumps over the lazy gdo poiuytrewqasdfghjklmnbvcxz.\
+ The quick brown fox jumps over the lazy dog mnbvcxzasdfghjklpoiuytrewq."
     
     isPangram, pangramCount = is_pangram(test_string)
     print (test_string+'\n')
